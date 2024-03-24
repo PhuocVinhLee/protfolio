@@ -26,7 +26,10 @@ const Services = () => {
                         <div className="relative text-gray-700 antialiased text-sm font-semibold">
                             { /* vertical line running through the middle */}
                             <div className="hidden  absolute w-1 sm:block bg-indigo-300 h-full left-1/2 transform -translate-x-1/2"></div>
+                            {/* transform -translate-x-1/2 dich chuyen pt */}
+                            {/* left 1/2 phan tu se nam ben trai 1/2 h */}
                             {/* left card */}
+
                             <div className="border border-red-600 mt-6 sm:mt-0 sm:mb-12">
                                 <div className="flex items-center flex-col sm:flex-row">
 
@@ -45,8 +48,9 @@ const Services = () => {
 
 
                                     <div className=" rounded-full bg-primaryColor border-white border-4 w-10 h-10 absolute left-1/2 
-                                    transform -translate-x-1/2 -translate-y-4
+                                    transform -translate-x-1/2 -translate-y-5
                                     sm:translate-y-0 flex items-center justify-center">
+                                        {/* absolute chi co tac dung khi L,R,T,B */}
                                         <figure>
                                             <img src={frontendImg} alt="#" />
                                         </figure>

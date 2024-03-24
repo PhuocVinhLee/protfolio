@@ -34,23 +34,24 @@ const Header = () => {
     }
 
     return (
-        <header  ref={headerRef} className='border border-red-300 w-full h-[80px] leading-[80px] flex  items-center'>
-            <div className=' container border border-yellow-400'>
+        <header  ref={headerRef} className=' w-full h-[80px] leading-[80px] flex  items-center'>
+            <div className=' container '>
 
                 <div className=' flex items-center justify-between'>
 
-                    <div className='border border-yellow-400 flex items-center gap-[10px]'>
+                    <div className=' flex items-center gap-[10px]'>
                         <span className=' w-[35px] h-[35px] bg-primaryColor text-white text-[18px] font-[500]
                          rounded-full flex items-center justify-center'>
-                            M
+                            Sang_LE_XAOLON
                         </span>
 
                         <div className=' leading-[20px]' >
+                        {/* leading khoang cach tren duoi giua cac Text hoac pt */}
                             <h2 className='text-xl text-smallTextColor font-[700]'> test1</h2>
                             <p className=' text-smallTextColor text-[14px] font-[500]'>test</p>
                         </div>
                     </div>
-                    <div ref={menuRef} onClick={togleMenu} className='menu border border-yellow-400' >
+                    <div ref={menuRef} onClick={togleMenu} className='menu ' >
                         <ul className='flex items-center gap-10'>
                             <li  className=' text-small font-[600]'><a onClick={handleClick}   href="#about">About</a></li>
                             <li   className=' text-small font-[600]'><a onClick={handleClick}  href="#service"> Service</a></li>
@@ -59,12 +60,13 @@ const Header = () => {
                         </ul>
                     </div>
 
-                    <div className=' border border-yellow-400 flex items-center gap-4'>
+                    <div className='  flex items-center gap-4'>
                         <button className=' flex items-center gap-2 text-sm font-[600] border border-solid
      border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px]  hover:bg-smallTextColor
        hover:text-white  hover:font-[500] ease-in duration-300'>
                             <i className='ri-send-plane-line'></i> Lest's Talk
                         </button>
+                        
                         <span onClick={togleMenu} className=' text-2xl text-smallTextColor md:hidden cursor-pointer'>
                             <i className='ri-menu-line'></i>
                         </span>

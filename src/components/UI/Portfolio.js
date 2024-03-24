@@ -48,7 +48,8 @@ const Portfolio = () => {
     return (
         <section id="portfolio">
             <div className="container">
-                <div className="flex items-center justify-between flex-wrap">
+                <div className="flex items-center justify-between flex-wrap"> 
+                 {/* { 'flex-wrap pt se xuong dong ra ngoai neu can thiet'} */}
                     <div className="mb-7 sm:mb-0">
                         <h3 className="text-headingColor text-[2rem] font-[700]">
                             My recent projects
@@ -68,6 +69,7 @@ const Portfolio = () => {
                     </div>
                 </div>
                 <div className="flex items-center gap-4 flex-wrap mt-12">
+                    {/*  gap-4 nhung phan tu se cach nhau 4px */}
                     {portfolios?.slice(0, nextItems)?.map((portfolio, index) => (
                         <div key={index} data-aos='fade-zoom-in' data-aos-delay='50' data-aos-duration='1000'
                             className="group max-w-full sm:w-[48.5%] md:w-[31.8%] lg:w-[32.2%] relative z-[1]">

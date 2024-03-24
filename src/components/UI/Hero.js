@@ -7,7 +7,7 @@ const Hero = () => {
     return (
         <section className="pt-0 border border-orange-600" id="about">
             <div className="container border border-orange-600 pt-14">
-                <div className=" border border-orange-600  md:flex items-center justify-between sm:flex-col md:flex-row">
+                <div className=" border border-orange-600 flex items-center justify-between flex-col md:flex-row">
                 
                     <div className="  border border-orange-600 w-full md:basis-1/2">
                         <h5 data-aos='fade-right' data-aos-duration='1500'
@@ -41,7 +41,7 @@ const Hero = () => {
                             Aperiam, amet! Facilis.
                         </p>
 
-                        <div className="border border-yellow-400 flex items-center gap-9 mt-14">
+                        <div className="border border-yellow-400 flex items-center  gap-9 mt-14">
                             <span className="text-smallTextColor text-[15px] font-[600]">
                                 Follow me:
                             </span>
