@@ -16,7 +16,7 @@ const Hero = () => {
                         </h5>
                         <h1 className="mt-5 leading-[35px] sm:leading-[46px] text-[1.8rem] 
             sm:text-[40px] text-headingColor font-[800]" data-aos='fade-up' data-aos-duration='1500' >
-                            Helo ban bam nho  <br />yeu 
+                            Helo Sang Ni Xao <br />
                         </h1>
                         <div data-aos="fade-up" data-aos-duration='1800'
                             data-aos-delay='200' className="flex items-center gap-5 mt-7">
