@@ -7,21 +7,18 @@ import App from "../../App";
 const Services = () => {
     return (
         <section id="service" >
-            <div className="container lg:pt-5 border border-red-600">
+            <div className="container lg:pt-5 ">
                 <div className="text-center">
                     <h2 className="text-headingColor font-[800] text-[2.4rem] mb-5">
                         What do I help
                     </h2>
 
                     <p className="lg:max-w-[600px] lg:mx-auto text-headingColor font-[500] text-[16px] leading-7 ">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut,
-                        doloribus? Quas perferendis ipsam repudiandae ullam voluptate nemo,
-                        esse iure sint, ex nostrum voluptatum minima repellat? Tempora eaque
-                        wwwww wwww wwwwwww www wwwww
-                        quam corporis animi!
+                    “The best way to not feel hopeless is to get up and do something. Don’t wait for good things to happen to you. If you go out and make some good things happen, you will fill the world with hope, you will fill yourself with hope.”
+― Barack Obama
                     </p>
                 </div>
-                <div className="border border-yellow-400 flex flex-col justify-center sm:py-12">
+                <div className=" flex flex-col justify-center sm:py-12">
                     <div className="w-full py-3 px-2 sm:max-w-xl sm:mx-auto sm:px-0">
                         <div className="relative text-gray-700 antialiased text-sm font-semibold">
                             { /* vertical line running through the middle */}
@@ -30,18 +27,14 @@ const Services = () => {
                             {/* left 1/2 phan tu se nam ben trai 1/2 h */}
                             {/* left card */}
 
-                            <div className="border border-red-600 mt-6 sm:mt-0 sm:mb-12">
+                            <div className="mt-6 sm:mt-0 sm:mb-12">
                                 <div className="flex items-center flex-col sm:flex-row">
 
-                                    <div className="border border-blue-600 flex justify-start w-full mx-auto items-center">
-                                        <div className="  border border-red-400 w-full sm:w-1/2 sm:pr-8">
+                                    <div className=" flex justify-start w-full mx-auto items-center">
+                                        <div className="  w-full sm:w-1/2 sm:pr-8">
                                             <div data-aos='fade-right' data-aos-duration='1200' className=" Ibg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150">
                                                 <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-2xl">Frontend Development</h3>
-                                                <p className="text-[15px] ☐ text-smallTextColor group-hover:text-white group-hover:fort[500]">Lorem ipsum dolor sit amet consectetur
-                                                    adipisicing elit.
-                                                    Consequatur, ad quas
-                                                    wwwww
-                                                    excepturi eius optio voluptatum.</p> I
+                                                <p className="text-[15px] ☐ text-smallTextColor group-hover:text-white group-hover:fort[500]">A front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to access and interact with the site or app. When you visit a website, the design elements you see were created by a front-end developer.</p> 
                                             </div>
                                         </div>
                                     </div>
@@ -59,16 +52,14 @@ const Services = () => {
                                 </div>
                             </div>
                             {/* rright card */}
-                            <div className=" border border-red-600 mt-6 sm:mt-0 sm:mb-12">
+                            <div className="  mt-6 sm:mt-0 sm:mb-12">
                                 <div className="flex items-center flex-col sm:flex-row">
                                     <div className="flex justify-end w-full mx-auto items-center">
                                         <div className="w-full sm:w-1/2 sm:pl-8">
                                             <div data-aos='fade-left' data-aos-delay='50'
                                                 data-aos-duration='1300' className=" Ibg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150">
                                                 <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-2xl">Frontend Development</h3>
-                                                <p className="text-[15px] ☐ text-smallTextColor group-hover:text-white group-hover:fort[500]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, ad quas
-                                                    wwwww
-                                                    excepturi eius optio voluptatum.</p> I
+                                                <p className="text-[15px] ☐ text-smallTextColor group-hover:text-white group-hover:fort[500]">A front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to access and interact with the site or app. When you visit a website, the design elements you see were created by a front-end developer.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -93,9 +84,7 @@ const Services = () => {
                                             <div data-aos='fade-right' data-aos-delay='100'
                                                 data-aos-duration='1400' className=" Ibg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150">
                                                 <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-2xl">Frontend Development</h3>
-                                                <p className="text-[15px] ☐ text-smallTextColor group-hover:text-white group-hover:fort[500]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, ad quas
-                                                    wwwww
-                                                    excepturi eius optio voluptatum.</p> I
+                                                <p className="text-[15px] ☐ text-smallTextColor group-hover:text-white group-hover:fort[500]">A front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to access and interact with the site or app. When you visit a website, the design elements you see were created by a front-end developer.</p> 
                                             </div>
                                         </div>
                                     </div>
@@ -118,9 +107,7 @@ const Services = () => {
                                         <div className="w-full sm:w-1/2 sm:pl-8">
                                             <div data-aos='fade-left' data-aos-duration='1500' className=" Ibg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150">
                                                 <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-2xl">Frontend Development</h3>
-                                                <p className="text-[15px] ☐ text-smallTextColor group-hover:text-white group-hover:fort[500]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, ad quas
-                                                    wwwww
-                                                    excepturi eius optio voluptatum.</p> I
+                                                <p className="text-[15px] ☐ text-smallTextColor group-hover:text-white group-hover:fort[500]">A front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to access and interact with the site or app. When you visit a website, the design elements you see were created by a front-end developer.</p>
                                             </div>
                                         </div>
                                     </div>

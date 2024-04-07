@@ -72,9 +72,9 @@ const Portfolio = () => {
                     {/*  gap-4 nhung phan tu se cach nhau 4px */}
                     {portfolios?.slice(0, nextItems)?.map((portfolio, index) => (
                         <div key={index} data-aos='fade-zoom-in' data-aos-delay='50' data-aos-duration='1000'
-                            className="group max-w-full sm:w-[48.5%] md:w-[31.8%] lg:w-[32.2%] relative z-[1]">
+                            className="group p-3 max-w-full sm:w-[48.5%] md:w-[31.8%] lg:w-[32.2%] relative z-[1]">
                             <figure>
-                                <img className="rounded-[8px]" src={portfolio.imgUrl} alt="" />
+                                <img className="rounded-[8px] h-[200px]" src={portfolio.imgUrl} alt="" />
                             </figure>
 
                             <div className="w-full h-full bg-primaryColor bg-opacity-40 absolute top-0 left-0

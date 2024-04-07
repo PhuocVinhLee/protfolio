@@ -30,7 +30,7 @@ const Header = () => {
     }
 
     const togleMenu = ()=>{
-        return menuRef.current.classList.toggle('show_menu')
+        return menuRef.current.classList.toggle('show_menu')// on off class
     }
 
     return (
@@ -42,16 +42,17 @@ const Header = () => {
                     <div className=' flex items-center gap-[10px]'>
                         <span className=' w-[35px] h-[35px] bg-primaryColor text-white text-[18px] font-[500]
                          rounded-full flex items-center justify-center'>
-                           M
+                           V
                         </span>
 
                         <div className=' leading-[20px]' >
                         {/* leading khoang cach tren duoi giua cac Text hoac pt */}
-                            <h2 className='text-xl text-smallTextColor font-[700]'> test1</h2>
-                            <p className=' text-smallTextColor text-[14px] font-[500]'>test</p>
+                            <h2 className='text-xl text-smallTextColor font-[700]'> Vinh</h2>
+                            <p className=' text-smallTextColor text-[14px] font-[500]'>personal</p>
                         </div>
                     </div>
                     <div ref={menuRef} onClick={togleMenu} className='menu ' >
+
                         <ul className='flex items-center gap-10'>
                             <li  className=' text-small font-[600]'><a onClick={handleClick}   href="#about">About</a></li>
                             <li   className=' text-small font-[600]'><a onClick={handleClick}  href="#service"> Service</a></li>

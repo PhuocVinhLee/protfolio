@@ -44,6 +44,8 @@ section{
     background: #00000084;
     z-index: 100;
     display: none;
+    color: aqua;
+    border: red 1px solid;
   }
 
   .menu ul{

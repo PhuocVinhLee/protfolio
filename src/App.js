@@ -18,10 +18,11 @@ function App() {
     <div>
       <Header></Header>
       <main><Hero></Hero>
+
         <Services></Services>
         <Portfolio></Portfolio>
         <Contact></Contact>
-        </main>
+      </main>
       <Footer></Footer>
     </div>
   );
